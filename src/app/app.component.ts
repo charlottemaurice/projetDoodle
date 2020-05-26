@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './view/app.component.html',
+  templateUrl: './view/creer_un_doodleme.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
