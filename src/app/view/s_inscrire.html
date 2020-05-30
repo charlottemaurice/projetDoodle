@@ -3,23 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Creez vous un compte </title>
+    <script src="../../DBDoodleMe/insert_utilisateur.js" type="text/javascript"></script>
   </head>
   <body>
-
     <ul>
       <li> <a href="menu.html">Menu</a></li>
       <li> <a href="se_connecter.html">Connectez vous à votre compte!</a></li>
       <li> <a href="s_inscrire.html">Creez vous un compte!</a></li>
       <li> <a href="creer_un_doodleme.html">Pour quelle occasion?</a></li>
     </ul>
-        <form action="" method="post" autocomplete="on">
+        <form action="" method="post" autocomplete="on" id="nouvelUtilisateur">
            <fieldset>
-              <input name="nom_utilisateur" id="nom_utilisateur" type="text" placeholder="Nom d'utilisateur:" maxlength="20" required><br>
+              <input name="nomUtilisateur" id="nomUtilisateur" type="text" placeholder="Nom d'utilisateur:" maxlength="20" required><br>
               <input name="nom" id="nom" type="text" placeholder="Nom:" maxlength="20" required><br>
               <input name="prenom" id="prenom" type="text" placeholder="Prénom:" maxlength="20" required><br>
               <input name="control" type="reset" value="Retour" href="menu.html">
-              <input name="control" type="submit" value="Continuer">
-            </fieldset>
+              <input name="control" type="submit" value="Continuer" onClick="teste()">
+             <button onclick="teste()">Say hello</button>
+
+           </fieldset>
         </form>
 
   </body>
