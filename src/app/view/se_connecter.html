@@ -1,22 +1,22 @@
 <!doctype html>
 <html>
 <head>
+  <link type="text/css" rel="stylesheet" href="style.css">
   <meta charset="utf-8">
   <title>Connectez vous à votre compte! </title>
 </head>
 <body>
-  <ul>
-    <li> <a href="menu.html">Menu</a></li>
-    <li> <a href="se_connecter.html">Connectez vous à votre compte!</a></li>
-    <li> <a href="s_inscrire.html">Creez vous un compte!</a></li>
-    <li> <a href="creer_un_doodleme.html">Pour quelle occasion?</a></li>
-  </ul>
-<form action="" method="post" autocomplete="on">
-  <fieldset>
-    <input name="nom" id="nom" type="text" placeholder="Nom d'utilisateur:" maxlength="10" required><br>
-    <input name="control" type="reset" value="Retour">
-    <input name="control" type="submit" value="Continuer">
-  </fieldset>
-</form>
+<h1>DoodleMe!</h1>
+<div class="content">
+  <h2>Se connecter à son compte</h2>
+  <form action="" method="post" autocomplete="on">
+    <fieldset>
+      <input size="50" name="nom" id="nom" type="text" placeholder="Nom d'utilisateur:" maxlength="50" required><br>
+      <br>
+        <input class="greyBouton" name="control" type="reset" value="Retour">
+        <input class="greenBouton" name="control" type="submit" value="Continuer">
+    </fieldset>
+  </form>
+</div>
 </body>
 </html>
